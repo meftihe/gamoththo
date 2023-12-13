@@ -1,6 +1,6 @@
-# Nuxt 3 Minimal Starter
+# Gamoththo
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+> The Gamoththo Web Application is a language learning app that includes a powerful dictionary and various other features aimed at enhancing the language learning experience.
 
 ## Setup
 
