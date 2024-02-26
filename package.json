@@ -12,7 +12,7 @@
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@nuxtjs/tailwindcss": "^6.11.4",
-    "nuxt": "^3.10.1",
+    "nuxt": "^3.10.3",
     "nuxt-icon": "^0.6.8",
     "prettier": "^3.2.5",
     "vue": "^3.4.19",
