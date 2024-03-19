@@ -1,5 +1,5 @@
 <template>
-  <div class="btm-nav">
+  <div class="btm-nav btm-nav-sm">
     <nuxt-link to="/" :class="$route.path === '/' ? 'active' : ''">
       <icon name="ph:house-duotone" class="w-5 h-5"></icon>
     </nuxt-link>
