@@ -5,4 +5,10 @@ export default {
     extend: {},
   },
   plugins: [require('daisyui')],
+  daisyui: {
+    themes: false,
+    base: true,
+    utils: true,
+  },
+  darkMode: 'class',
 };
