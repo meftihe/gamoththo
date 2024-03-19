@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar bg-base-100">
+  <div class="navbar bg-base-100 shadow">
     <div class="navbar-start">
       <div class="dropdown">
         <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
@@ -29,7 +29,7 @@
       </div>
     </div>
     <div class="navbar-center">
-      <a class="btn btn-ghost text-xl">daisyUI</a>
+      <a class="btn btn-ghost text-xl">Gammoththo</a>
     </div>
     <div class="navbar-end">
       <button class="btn btn-ghost btn-circle">

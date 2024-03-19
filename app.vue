@@ -1,9 +1,9 @@
 <template>
   <div>
     <Navbar />
-    <main class="pt-16">
+    <main class="p-4">
       <NuxtPage />
     </main>
-    <TheFooter />
+    <BottomNav />
   </div>
 </template>
