@@ -1,6 +1,6 @@
 <template>
   <div>
-    <TheHeader />
+    <Navbar />
     <main class="pt-16">
       <NuxtPage />
     </main>

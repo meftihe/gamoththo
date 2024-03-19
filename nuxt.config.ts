@@ -2,4 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss', 'nuxt-icon'],
-})
+  build: {
+    transpile: ['vue-echarts', 'resize-detector'],
+  },
+});
