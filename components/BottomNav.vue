@@ -4,8 +4,8 @@
       <icon name="ph:house-duotone" class="w-5 h-5"></icon>
     </nuxt-link>
     <nuxt-link
-      to="/favorites"
-      :class="$route.path === '/favorites' ? 'active' : ''"
+      to="/favourites"
+      :class="$route.path === '/favourites' ? 'active' : ''"
     >
       <icon name="ic:twotone-favorite" class="w-5 h-5"></icon>
     </nuxt-link>
