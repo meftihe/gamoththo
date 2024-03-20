@@ -1,9 +1,8 @@
 <template>
   <div>
-    <TheHeader />
-    <main class="pt-16">
+    <div>
       <NuxtPage />
-    </main>
-    <TheFooter />
+    </div>
+    <BottomNav />
   </div>
 </template>

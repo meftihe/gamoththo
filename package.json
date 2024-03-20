@@ -11,11 +11,13 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "@nuxtjs/tailwindcss": "^6.10.1",
-    "nuxt": "^3.8.2",
-    "nuxt-icon": "^0.6.7",
-    "prettier": "^3.1.1",
-    "vue": "^3.3.10",
+    "@nuxtjs/color-mode": "^3.3.2",
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "daisyui": "^4.7.3",
+    "nuxt": "^3.11.1",
+    "nuxt-icon": "^0.6.9",
+    "prettier": "^3.2.5",
+    "vue": "^3.4.19",
     "vue-router": "^4.2.5"
   }
 }
