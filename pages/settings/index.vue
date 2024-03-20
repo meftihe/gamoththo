@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto">
-    <h1 class="text-xl font-bold my-4">Settings</h1>
+    <h1 class="text-xl font-bold my-4 mx-2">Settings</h1>
     <div class="grid grid-cols-1 gap-4">
       <div class="card shadow-lg">
         <div class="card-body">
@@ -9,7 +9,12 @@
           <div class="form-control">
             <label class="label cursor-pointer">
               <span class="label-text">Dark Theme</span>
-              <input type="checkbox" class="toggle" checked />
+              <input
+                type="checkbox"
+                class="toggle"
+                value="dark"
+                :checked="$colorMode.preference === 'dark'"
+              />
             </label>
           </div>
         </div>
@@ -26,3 +31,8 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+const colorMode = useColorMode();
+console.log(colorMode.preference);
+</script>

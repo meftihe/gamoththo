@@ -5,4 +5,10 @@ export default defineNuxtConfig({
   build: {
     transpile: ['vue-echarts', 'resize-detector'],
   },
+  colorMode: {
+    preference: 'light',
+    fallback: 'light',
+    dataValue: 'theme',
+    classSuffix: '',
+  },
 });
