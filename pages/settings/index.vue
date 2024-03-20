@@ -1,6 +1,6 @@
 <template>
-  <div class="container mx-auto">
-    <h1 class="text-xl font-bold my-4 mx-2">Settings</h1>
+  <Navbar>Settings</Navbar>
+  <div class="container mx-auto p-4">
     <div class="grid grid-cols-1 gap-4">
       <div class="card shadow-lg">
         <div class="card-body">

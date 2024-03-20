@@ -1,9 +1,9 @@
 <template>
   <div class="navbar bg-base-100 shadow">
     <div class="flex-1">
-      <a class="btn btn-ghost text-xl">Gamoththo</a>
+      <span class="btn btn-ghost text-xl"><slot></slot></span>
     </div>
-    <div class="flex-none">
+    <div class="flex-none" v-if="$route.path === '/'">
       <button class="btn btn-ghost btn-circle">
         <svg
           xmlns="http://www.w3.org/2000/svg"
