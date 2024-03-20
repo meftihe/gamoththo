@@ -12,8 +12,8 @@
               <input
                 type="checkbox"
                 class="toggle"
-                value="dark"
-                :checked="$colorMode.preference === 'dark'"
+                :checked="colorMode.preference === 'dark'"
+                @change="toggleColorMode"
               />
             </label>
           </div>
@@ -34,5 +34,9 @@
 
 <script setup lang="ts">
 const colorMode = useColorMode();
-console.log(colorMode.preference);
+
+const toggleColorMode = (e: Event) => {
+  const target = e.target as HTMLInputElement;
+  colorMode.preference = target.checked ? 'dark' : 'light';
+};
 </script>
