@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar bg-base-100 shadow">
+  <div :class="['navbar bg-base-100', $props.class]">
     <div class="flex-1">
       <span class="btn btn-ghost text-xl"><slot></slot></span>
     </div>
@@ -42,3 +42,11 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+interface NavbarProps {
+  class?: string;
+}
+
+defineProps<NavbarProps>();
+</script>

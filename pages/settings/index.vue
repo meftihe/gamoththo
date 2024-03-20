@@ -1,5 +1,5 @@
 <template>
-  <Navbar>Settings</Navbar>
+  <Navbar class="shadow">Settings</Navbar>
   <div class="container mx-auto p-4">
     <div class="grid grid-cols-1 gap-4">
       <div class="card shadow-lg">
