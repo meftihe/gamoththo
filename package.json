@@ -13,7 +13,7 @@
     "@nuxt/devtools": "latest",
     "@nuxtjs/color-mode": "^3.4.0",
     "@nuxtjs/tailwindcss": "^6.11.4",
-    "daisyui": "^4.10.1",
+    "daisyui": "^4.10.2",
     "nuxt": "^3.11.2",
     "nuxt-icon": "^0.6.9",
     "prettier": "^3.2.5",
